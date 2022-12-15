@@ -1,0 +1,232 @@
+.title_div {
+  color: rgba(255, 33, 33, 1);
+  font-weight: bold;
+  font-size: 42px;
+  margin: 0 0 0 75px;
+}
+.h_one {
+  color: rgba(255, 33, 33, 1);
+}
+.title {
+  margin: 80px 40px 0 80px;
+}
+.kaimono {
+padding: 70 0 0 80px;
+  font-size: 72px;
+  font-weight: bold;
+  color: rgba(255, 33, 33, 1);
+}
+.sensei {
+  padding: 10 0 0 160px;
+  font-size: 72px;
+  font-weight: bold;
+color: rgba(0, 0, 0, 1);
+}
+.input {
+  border: rgba(0, 0, 0, 1) solid 1px;
+  border-radius: 5px 5px 5px 5px;
+  width: 450px !important;
+  height: 80px !important;
+  color: rgba(128, 128, 128, 1);
+  font-size: 30px;
+  text-indent: 15px;
+}
+.input_cart {
+color: rgba(0, 0, 0, 1);
+  margin: 20px 60px 20px 60px;
+text-align: center;
+}
+.input_div {
+  padding: 45px 45px 45px 70px;
+}
+.button_div {
+  padding: 0 0 0 45px;
+}
+.bt {
+  background-color: rgba(255, 166, 0, 1);
+  border: rgb(255, 255, 255, 1) solid 1px;
+  border-radius: 5px 5px 5px 5px;
+  width: 400px;
+  height: 80px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  justify-content: center;
+}
+.bt:hover {
+  background-color: rgba(255, 210, 0, 1);
+}
+.btt {
+  width: 450px !important;
+  height: 80px !important;
+}
+.bt_friend {
+  width: 150px;
+  height: 50px;
+font-size: 16px;
+margin: 0 0 0 400px;
+}
+.phone {
+  width: 576px !important;
+  height: 1024px !important;
+  background-color: rgba(255, 255, 255, 1);
+}
+.back {
+  background-image: url(../image/back.png);
+  background-size: auto;
+  height: 60px !important;
+  width: 60px !important;
+}
+.top {
+  height: 150px !important;
+  flex-direction: row;
+  display: flex !important;
+}
+.top_reverse {
+flex-direction: row-reverse !important;
+}
+.search {
+  margin: 40px 20px 40px 20px;
+  width: 350px !important;
+  border-radius: 15px 15px 15px 15px;
+  border: rgba(0, 0, 0, 1) solid 1px;
+  font-size: 25px;
+  text-indent: 20px;
+}
+.bt_icon {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  margin: 25px 0 0 0;
+border-style: none;
+}
+.bt_icon:hover {
+  border-style: solid;
+}
+.bt_search {
+background-image: url(../image/search.png);
+}
+.bt_config {
+width: 62px;
+  height: 56px;
+background-image: url(../image/config.png);
+margin: 40px 0 0 5px;
+}
+.bt_back {
+background-color: rgb(255,255,255,0);
+margin: 25px 0 0 10px;
+background-image: url(../image/back.png);
+}
+.mid {
+  border-left: rgba(0, 0, 0, 1) solid 1px !important;
+  border-right: rgba(0, 0, 0, 1) solid 1px !important;
+  height: 774px !important;
+  border-top: rgba(0, 0, 0, 1) solid 1px !important;
+flex-direction: column;
+  display: flex !important;
+}
+.mid_margin {
+  margin: 0 20px 0 20px;
+}
+.bottom {
+  height: 100px !important;
+  width: 477px !important;
+  background-color: rgb(255,230,153,1);
+  padding: 40px 50px 40px 50px;
+  position: absolute;/*←絶対位置*/
+}
+.scroller {
+height: 774px;
+overflow-y: scroll;
+scrollbar-color: rebeccapurple green;
+scrollbar-width: thin;
+}
+.msg_box_box {
+  width: 536px;
+height: 774px;
+  border: rgba(0, 0, 0, 1) solid 1px;
+background-image: url(../image/msg.png);
+  background-size: cover;
+}
+.btm_icon {
+  width: 90px !important;
+  height: 90px !important;
+  margin: 0 32px 0 32px;
+border-style: none;
+background-size: cover;
+border-radius: 10px 10px 10px 10px;
+}
+.btm_choosed {
+  background-color: rgb(255,192,0,1);
+}
+.btm_TL {
+background-image: url(../image/TL.png);
+}
+.btm_cart {
+background-image: url(../image/cart.png);
+}
+.btm_setting {
+background-image: url(../image/setting.png);
+}
+.btm_free {
+background-color: rgb(255,230,153,1);
+}
+.btm_free:hover {
+background-color: rgb(255,192,0,1);
+}
+.bt_black {
+  width: 80px !important;
+  background-color: rgba(0, 0, 0, 1);
+  margin: 40px 20px 40px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+.bt_black:hover {
+  background-color: rgba(100, 100, 100, 1);
+}
+.msg {
+  font-size: 30px;
+  margin: 20px 0 0 30px;
+}
+.keyboard {
+  background-image: url(../image/keyboard.png);
+  height: 367px !important;
+  background-size: cover;
+}
+.friend_list {
+  background-image: url(../image/friend_list.png);
+  height: 720px !important;
+  background-size: cover;
+}
+
+.フレンド追加_box {
+    position: relative;
+    background-image: url(../image/フレンド追加.jpg);
+    background-size: auto;
+    width: 536px;
+	height: 500px;
+}
+
+.mid {
+  border-left: rgba(255, 255, 255, 1) solid 1px !important;
+  border-right: rgba(255, 255, 255, 1) solid 1px !important;
+  height: 693px !important;
+  border-top: rgba(255, 255, 255, 0) solid 1px !important;
+flex-direction: column;
+  display: flex !important;
+}
+.mid_margin {
+  margin: 0 20px 0 20px;
+}
+.top_reverse {
+	flex-direction: row-reverse !important;
+}
+
+.add_bt {
+  background-color: transparent;
+  width: 60px !important;
+  height: 60px !important;
+  position:relative;
+  margin:390px 350px;
+  /*コレ*/border: none;
+}

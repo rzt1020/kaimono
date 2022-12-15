@@ -1,0 +1,190 @@
+
+.input {
+	border: rgba(0, 0, 0, 1) solid 1px;
+	border-radius: 3px 3px 3px 3px;
+	width: 450px !important;
+	height: 80px !important;
+	color: rgba(255, 255, 255, 1);
+	font-size: 30px;
+	text-indent: 15px;
+}
+
+.button_div2 {
+    padding: 0px 20px 10px 30px;
+    border-bottom: 2px dotted black;
+    display: flex;
+  }
+
+.button_div3 {
+	padding: 10px 30px 10px 30px;
+  border-bottom: 2px dotted black;
+  display: flex;
+}
+.button_div4 {
+	padding: 10px 30px 10px 30px;
+  border-bottom: 2px dotted black;
+  display: flex;
+}
+
+.top {
+  height: 150px !important;
+  flex-direction: row;
+  display: flex !important;
+}
+.top_reverse {
+flex-direction: row-reverse !important;
+}
+
+.bt1 {
+	background-color: rgba(255, 166, 0, 1);
+	border: rgb(255, 255, 255, 1) solid 1px;
+	border-radius: 10px 10px 10px 10px;
+	width: 200px;
+	height: 50px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30px;
+}
+.bt2 {
+	background-color: rgba(255, 166, 0, 1);
+	border: rgb(255, 255, 255, 1) solid 1px;
+	border-radius: 10px 10px 10px 10px;
+	width: 200px;
+	height: 50px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30px;
+}
+
+.bt3 {
+	background-color: rgba(255, 166, 0, 1);
+	border: rgb(255, 255, 255) solid 1px;
+	border-radius: 20px 20px 20px 20px;
+	width: 75px;
+	height: 150px;
+	color: rgb(254, 253, 253);
+	font-size: 30px;
+	justify-content: center;
+}
+.bt3:hover{
+	background-color: rgb(255,230,153,1);
+}
+.bt3-2 {
+	background-color: rgb(255,230,153,1);
+	border: rgb(255, 255, 255) solid 1px;
+	border-radius: 20px 20px 20px 20px;
+	width: 75px;
+	height: 150px;
+	color: rgb(254, 253, 253);
+	font-size: 30px;
+	justify-content: center;
+}
+.bt4 {
+	background-color: rgba(255, 166, 0, 1);
+	border: rgb(255, 255, 255, 1) solid 1px;
+	border-radius: 20px 20px 20px 20px;
+	width: 75px;
+	height: 150px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30px;
+	justify-content: center;
+}
+span{
+  display: block;
+}
+.A {
+  padding: 20px;
+  font-size: 30px;
+}
+.phone {
+	width: 576px !important;
+	height: 1024px !important;
+	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+}
+
+.bt_black {
+  width: 80px !important;
+  background-color: rgba(0, 0, 0, 1);
+  margin: 40px 20px 40px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bt_black:hover {
+  background-color: rgba(100, 100, 100, 1);
+}
+
+.bottom {
+  height: 100px !important;
+  background-color: rgb(255,230,153,1);
+  padding: 40px 50px 40px 50px;
+	position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+	left: 0;
+	right: 0;
+}
+
+.btm_icon {
+  width: 90px !important;
+  height: 90px !important;
+  margin: 0 32px 0 32px;
+border-style: none;
+background-size: cover;
+border-radius: 10px 10px 10px 10px;
+}
+
+.btm_choosed {
+  background-color: rgb(255,192,0,1);
+}
+.btm_TL {
+background-image: url(../image/TL.png);
+}
+.btm_cart {
+background-image: url(../image/cart.png);
+}
+.btm_setting {
+background-image: url(../image/setting.png);
+}
+.btm_free {
+background-color: rgb(255,230,153,1);
+}
+.btm_free:hover {
+background-color: rgb(255,192,0,1);
+}
+
+.back {
+	background-image: url(../image/back.png);
+	background-size: auto;
+	height: 60px !important;
+	width: 60px !important;
+}
+.top {
+	height: 150px !important;
+	flex-direction: row;
+	display: flex !important;
+}
+.top_reverse {
+flex-direction: row-reverse !important;
+}
+.bt_back {
+	background-color: rgb(255,255,255,0);
+	margin: 25px 0 0 10px;
+	background-image: url(../image/back.png);
+}
+.bt_icon {
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+	margin: 25px 340 0 0;
+border-style: none;
+}
+
+.space {
+	width: 350px;
+	height: 100px;
+	color:rgb(255, 255, 255)
+}
+.bt_icon:hover {
+	border-style: solid;
+}
+

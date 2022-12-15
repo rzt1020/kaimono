@@ -1,0 +1,126 @@
+.phone_客店 {
+    position: relative;
+    background-image: url(../image/客店選択.jpg);
+    background-size: auto;
+    width: 576px !important;
+    height: 1024px !important;
+}
+.mise_客店 {
+    position: absolute;
+    left: 51px;
+    bottom: 269px;
+}
+.kyaku_客店 {
+    position: absolute;
+    left:61px;
+    bottom: 12px;
+}
+.back_客店 {
+    position: absolute;
+    left: 19px;
+    top: 13px;
+}
+.bt_mise_r {
+    background-color: rgba(51, 0, 255, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 50%;
+    width: 463px;
+    height: 225px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_kyaku_r {
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 50%;
+    width: 455px;
+    height: 215px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_back_r {
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    width: 80px;
+    height: 80px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_mise_r:hover {
+    background-color: rgba(255, 208, 0, 0.603);
+}
+.bt_kyaku_r:hover {
+    background-color: rgba(255, 208, 0, 0.603);
+}
+.bt_back_r:hover {
+    background-color: rgba(252, 251, 247, 0.603);
+}
+
+
+
+.phone_アカウント作成{
+    position: relative;
+    background-image: url(../image/アカウント作成画面.png);
+    background-size: auto;
+    width: 576px !important;
+    height: 1024px !important;
+}
+.back_アカウント作成 {
+    position: absolute;
+    left: 28px;
+    top: 16px;
+}
+.決定_アカウント作成{
+    position: absolute;
+    left: 408px;
+    top: 22px;
+}
+.bt_kettei_r{
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 15px;
+    width: 103px;
+    height: 89px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_kettei_r:hover {
+    background-color: rgba(251, 249, 243, 0.603);
+}
+
+
+
+
+.phone_承認待ち{
+    position: relative;
+    background-image: url(../image/承認待ち.png);
+    background-size: auto;
+    width: 576px !important;
+    height: 1024px !important;
+}
+.back_承認待ち {
+    position: absolute;
+    left: 88px;
+    bottom: 179px;
+}
+.bt_ログイン画面に戻る{
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 15px;
+    width: 389px;
+    height: 78px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_ログイン画面に戻る:hover {
+    background-color: rgba(251, 191, 13, 0.668);
+}
+
+
+
+

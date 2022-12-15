@@ -1,0 +1,117 @@
+.phone_r {
+    position: relative;
+    width: 576px !important;
+    height: 1024px !important;
+    background-color: rgba(255, 255, 255, 1);
+}
+.phone_タイムライン絞り込み {
+    top:0px;
+    left:0px;
+    background-image: url(../image/タイムライン絞り込み.png);
+    background-size: auto;
+    width: 576px !important;
+    height: 875px !important;
+}
+
+.フレンド選択{
+    position: absolute;
+    left: 73px;
+    top: 238px;
+}
+.checkbox_フレンド{
+    width: 50px;
+    height: 50px;
+}
+.店舗関連選択{
+    position: absolute;
+    left: 73px;
+    top: 385px;
+}
+.checkbox_店舗関連{
+    width: 50px;
+    height: 50px;
+}
+.店舗公式選択{
+    position: absolute;
+    left: 73px;
+    top: 540px;
+}
+.checkbox_店舗公式{
+    width: 50px;
+    height: 50px;
+}
+
+
+.back_タイムライン絞り込み {
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+.bt_back_r {
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    width: 80px;
+    height: 80px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_back_r:hover {
+    background-color: rgba(252, 251, 247, 0.603);
+}
+
+
+.決定_タイムライン絞り込み{
+    position: absolute;
+    left: 395px;
+    top: 9px;
+}
+.bt_kettei_r{
+    background-color: rgba(255, 0, 0, 0);
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 15px;
+    width: 103px;
+    height: 89px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+.bt_kettei_r:hover {
+    background-color: rgba(251, 249, 243, 0.603);
+}
+
+.bottom_r {
+    height: 100px !important;
+    background-color: rgb(255,230,153,1);
+    padding: 40px 50px 40px 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.btm_icon_r {
+    width: 90px !important;
+    height: 90px !important;
+    margin: 5 49px 5 49px;/*32*/
+	border-style: none;
+	background-size: cover;
+	border-radius: 10px 10px 10px 10px;
+}
+.btm_choosed_r {
+    background-color: rgb(255,192,0,1);
+}
+.btm_TL_r {
+	background-image: url(../image/TL.png);
+}
+.btm_cart_r {
+	background-image: url(../image/cart.png);
+}
+.btm_setting_r {
+	background-image: url(../image/setting.png);
+}
+.btm_free_r {
+	background-color: rgb(255,230,153,1);
+}
+.btm_free_r:hover {
+	background-color: rgb(255,192,0,1);
+}
