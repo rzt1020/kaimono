@@ -223,7 +223,6 @@ flex-direction: column;
 }
 
 .add_bt {
-  background-color: transparent;
   width: 60px !important;
   height: 60px !important;
   position:relative;
