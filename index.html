@@ -29,9 +29,9 @@
 				<div class="input_div">
 				</div>
 				<div class="input_div">
-					<input type="text" name="input" class="input" value="ID: ○○○○＠○○○○">
+					<input type="text" name="input" id="id_input" class="input" value="ID: ○○○○＠○○○○">
 					<div  class="sensei"></div>
-					<input type="password" name="pass" class="input" value="**********" >
+					<input type="password" name="pass" id="pass_input" class="input" value="**********" >
 				</div>
 				<div class="input_div">
 					 <input type="submit" name="button" value="ログイン" class="bt" onclick="location.href='html/TL.html'">
@@ -43,4 +43,24 @@
 			</div>
 			
           </body>
+		  <script type="text/javascript">
+		  function clear_id() {
+		      if(document.getElementById('id_input').value == 'ID: ○○○○＠○○○○') {
+	              document.getElementById('id_input').value='ID: ';
+			  }
+		  }
+		  function fill_id() {
+		      if(document.getElementById('id_input').value == '' || document.getElementById('id_input').value == 'ID: ' ) {
+			      document.getElementById('id_input').value='ID: ○○○○＠○○○○';
+			  }
+		  }
+		  document.getElementById('id_input').addEventListener("click", clear_id);
+		  document.getElementById('id_input').addEventListener("blur", fill_id);
+		  function clear_pass() {
+		      if(document.getElementById('pass_input').value == '**********') {
+	              document.getElementById('pass_input').value='';
+			  }
+		  }
+		  document.getElementById('pass_input').addEventListener("click", clear_pass);
+		  </script>
           </html>
