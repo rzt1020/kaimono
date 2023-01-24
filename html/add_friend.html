@@ -18,13 +18,13 @@
 			<div class="phone">     
 				<div class="top">
 					<input type="button" name="button" class="bt_icon bt_back" onclick="location.href='friend_list.html'">
-					<input type="text" name="input" class="search input" value="フレンドコードを入力">
-					<input type="button" name="button" class="bt_icon bt_search">
+					<input type="text" name="input" id="text_input" class="search input" value="フレンドコードを入力">
+					<input type="button" name="button" class="bt_icon bt_search" onclick='ale()'>
 				</div>
 				<div class="mid">
 					<div class="フレンド追加_box">
 						<div class="add">
-							<input type="button" name="button" class="add_bt out" onclick="location.href='friend_list.html'">
+							<input type="button" name="button" value='追加' class="add_bt out bt_black" onclick="location.href='friend_list.html'">
 						</div>
 
 					
@@ -41,4 +41,21 @@
 			</div>
 			
           </body>
+		  <script type="text/javascript">
+		  function ale() {
+		      alert("検索できました");
+		  }
+		  function clear() {
+		      if(document.getElementById('text_input').value == 'フレンドコードを入力') {
+	              document.getElementById('text_input').value='';
+			  }
+		  }
+		  function fill() {
+		      if(document.getElementById('text_input').value == '') {
+			      document.getElementById('text_input').value='フレンドコードを入力';
+			  }
+		  }
+		  document.getElementById('text_input').addEventListener("click", clear);
+		  document.getElementById('text_input').addEventListener("blur", fill);
+		  </script>
           </html>

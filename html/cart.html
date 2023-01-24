@@ -21,9 +21,9 @@
 				</div>
 				<div class="mid">
 					 <span class="msg">おすすめな店を探す</span>
-					 <input type="text" name="input" value="りんご" class="input input_cart">
-					 <input type="text" name="input" value="パン" class="input input_cart">
-					 <input type="text" name="input" class="input input_cart">
+					 <input type="text" name="input" id='t1' value="りんご" class="input input_cart">
+					 <input type="text" name="input" id='t2' value="パン" class="input input_cart">
+					 <input type="text" name="input" id='t3' class="input input_cart">
 					 <div class="keyboard"></div>
 				</div>
 				<div class="bottom">
@@ -34,4 +34,18 @@
 			</div>
 			
           </body>
+		  <script type="text/javascript">
+		  function clear_t1() {
+		      document.getElementById('t1').value='';
+		  }
+		  document.getElementById('t1').addEventListener("click", clear_t1);
+		  function clear_t2() {
+		      document.getElementById('t2').value='';
+		  }
+		  document.getElementById('t2').addEventListener("click", clear_t2);
+		  function clear_t3() {
+		      document.getElementById('t3').value='';
+		  }
+		  document.getElementById('t3').addEventListener("click", clear_t3);
+		  </script>
           </html>

@@ -18,7 +18,7 @@
 			<div class="phone">     
 				<div class="top">
 					<input type="button" name="button" class="bt_icon bt_back" onclick="location.href='setup.html'">
-					<input type="text" name="input" class="search input_cart" value="友達検索">
+					<input type="text" name="input" id="text_input" class="search input_cart" value="友達検索">
 					<input type="button" name="button" class="bt_icon bt_search">
 				</div>
 				<div class="mid">
@@ -34,4 +34,20 @@
 			</div>
 			
           </body>
+		  
+		  <script type="text/javascript">
+		  function clear() {
+		      if(document.getElementById('text_input').value == '友達検索') {
+	              document.getElementById('text_input').value='';
+			  }
+		  }
+		  function fill() {
+		      if(document.getElementById('text_input').value == '') {
+			      document.getElementById('text_input').value='友達検索';
+			  }
+		  }
+		  document.getElementById('text_input').addEventListener("click", clear);
+		  document.getElementById('text_input').addEventListener("blur", fill);
+		  </script>
+		  
           </html>
