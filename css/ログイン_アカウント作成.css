@@ -1,41 +1,41 @@
 .phone_客店 {
     position: relative;
-    background-image: url(../image/客店選択.jpg);
+    background-image: url(../image/客店選択.png);
     background-size: auto;
     width: 576px !important;
     height: 1024px !important;
 }
 .mise_客店 {
     position: absolute;
-    left: 51px;
-    bottom: 269px;
+    left: 49px;
+    bottom: 272px;
 }
 .kyaku_客店 {
     position: absolute;
-    left:61px;
-    bottom: 12px;
+    left:58px;
+    bottom: 19px;
 }
 .back_客店 {
     position: absolute;
-    left: 19px;
-    top: 13px;
+    left: 14px;
+    top: 18px;
 }
 .bt_mise_r {
     background-color: rgba(51, 0, 255, 0);
     border: rgba(255, 255, 255, 0) solid 1px;
     border-radius: 50%;
-    width: 463px;
-    height: 225px;
+    width: 458px;
+    height: 223px;
     color: rgba(0, 0, 0, 0);
     font-size: 30px;
     justify-content: center;
 }
 .bt_kyaku_r {
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0, 255, 13, 0);
     border: rgba(255, 255, 255, 0) solid 1px;
     border-radius: 50%;
-    width: 455px;
-    height: 215px;
+    width: 450px;
+    height: 210px;
     color: rgba(0, 0, 0, 0);
     font-size: 30px;
     justify-content: center;
